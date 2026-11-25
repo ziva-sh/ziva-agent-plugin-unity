@@ -1,7 +1,9 @@
 # Ziva for Unity
 
-[Ziva](https://ziva.sh) is an AI agent docked inside your editor that builds features,
-fixes bugs, and writes code for you. This repository hosts the Unity plugin releases.
+[Ziva](https://ziva.sh) is an AI agent made by Zivash Inc. that docks in the Unity Editor: it reads your
+scenes and prefabs, edits them, writes C#, runs PlayMode tests and reads the Console. Ziva for Unity is
+available to studios through Ziva Enterprise: https://ziva.sh/unity. This repository hosts the Unity
+plugin releases.
 
 ## Install
 
@@ -11,7 +13,7 @@ fixes bugs, and writes code for you. This repository hosts the Unity plugin rele
    `Packages/` directory (they become embedded packages).
 4. Open the project (Unity 6000.4+) and open **Window > Ziva**.
 
-The dock, its browser engine, and the Ziva sidecar are all bundled — the only network
+The dock, its browser engine, and the Ziva sidecar are all bundled; the only network
 dependency at install time is Unity's own package registry.
 
 ## Support
